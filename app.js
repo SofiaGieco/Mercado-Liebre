@@ -13,22 +13,22 @@ app.listen(process.env.PORT, function(){
 })
 
 app.get("/", function(req,res){
-    res.sendFile(path.join(__dirname, "views/home.html"))
+    res.sendFile(path.join(__dirname, "/views/home.html"))
 })
 
 app.get("/index", function(req,res){
-    res.sendFile(path.join(__dirname, "views/index.html"))
+    res.sendFile(path.join(__dirname, "/views/index.html"))
 })
 
 app.get("/login", function(req,res){
-    res.sendFile(path.join(__dirname, "views/login.html"))
+    res.sendFile(path.join(__dirname, "/views/login.html"))
 })
 
 app.post("/index.html", function(req,res){
-    res.sendFile(path.join(__dirname, "views/home.html"))
+    res.sendFile(path.join(__dirname, "/views/home.html"))
 })
 
 app.post("/login.html", function(req,res){
-    res.sendFile(path.join(__dirname, "views/home.html"))
+    res.sendFile(path.join(__dirname, "/views/home.html"))
 })
 
