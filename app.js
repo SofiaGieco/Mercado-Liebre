@@ -16,11 +16,11 @@ app.get("/", function(req,res){
     res.sendFile(path.join(__dirname, "views/home.html"))
 })
 
-app.get("/index.html", function(req,res){
+app.get("/index", function(req,res){
     res.sendFile(path.join(__dirname, "views/index.html"))
 })
 
-app.get("/login.html", function(req,res){
+app.get("/login", function(req,res){
     res.sendFile(path.join(__dirname, "views/login.html"))
 })
 
