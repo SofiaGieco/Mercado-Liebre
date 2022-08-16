@@ -1,0 +1,87 @@
+main{
+    background-color: #ebebeb;
+}
+
+.control-form{
+    text-align: center;
+    padding: 15px;
+}
+
+.item-form{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 65vw;
+    height: 5vh;
+    text-align: left;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-left: 15vw;
+}
+
+
+.boton-formulario{
+    background-color: #1259c3;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    width: 32.5vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+}
+
+.button{
+    text-align: center;
+    padding: 15px;
+}
+
+.foto-usuario{
+    border: none;
+    padding-top: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 65vw;
+    height: 5vh;
+}
+
+.item-checkbox, .item-radio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 15px
+    
+}
+
+.categoria-option, .usuario-option{
+    width: 35%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.categorias, .opciones{
+    margin-left: 15vw;
+}
+
+.opciones{
+    display: flex;
+}
+
+
+@media(min-width:900px){
+    .titulo{
+        margin-left: 16.2vw;
+    }
+
+    .categorias, .opciones{
+        margin-left: 16.2vw;
+    }
+}
